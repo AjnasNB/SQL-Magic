@@ -2,7 +2,7 @@
   <img src="./public/logo.png" alt="Project Logo">
 </p>
 
-<h1 align="center">SQL Magic</h1>
+<h1 align="center" color='green'>SQL Magic</h1>
 
 ## Overview
 

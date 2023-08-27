@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/public/logo.png" alt="Project Logo">
+  <img src="./public/logo.png" alt="Project Logo">
 </p>
 
 <h1 align="center">SQL Magic</h1>

@@ -2,7 +2,7 @@
   <img src="https://fiverr-res.cloudinary.com/image/upload/f_png,q_auto,t_makers_project_variation_preview/v1/secured-attachments/makers_project_variation/preview_file/647ce8e62710b3ed6c986cb75d05a0dc-1688573946/64a595e669de1736f3022986.svg?__cld_token__=exp=1693171936~hmac=6b91ec8384609f463c79a76a0893c4a79008adb6d179e56f2bc11726ddc42e77" alt="Project Logo" width="150px">
 </p>
 
-<h1 align="center" style="color: #0f0;">SQL Magic</h1>
+<h1 align="center" style="color:green;">SQL Magic</h1>
 
 ## Overview
 

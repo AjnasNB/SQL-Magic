@@ -4,7 +4,7 @@
 
 <h1 align="center" style="color:green;">SQL Magic</h1>
 
-# Automatic SQL Query Generator
+## Automatic SQL Query Generator
 
 This project is created by Ajnas N B
 

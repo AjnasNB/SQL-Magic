@@ -81,7 +81,9 @@ const Ask = () => {
           (e.g. Write a query to fetch only the place name (string before brackets) from the Address column of EmployeeInfo table.)</p>
         </div>
         <textarea
-          placeholder="Ask a question..."
+          placeholder="Ask a question...
+          Make sure to start with 'Write a query to'
+          "
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
         />

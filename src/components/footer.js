@@ -34,7 +34,7 @@ const Footer = () => {
             <FaLinkedin size={"30px"} color="Blue" />
           </a>
           <a href="https://www.github.com/AjnasNB" target="_blank" rel="noopener noreferrer">
-            <FaGithub size={"30px"} color="#171515" />
+            <FaGithub size={"30px"} color="#160000" />
           </a>
         </div>
       </div>

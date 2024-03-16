@@ -11,12 +11,7 @@ const Footer = () => {
         <div className="footer-left">
           <p>Creator:</p>
           <div className="footer-logo">
-            <a href="https://ajnasnb.live" target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://ajnasnb.live/static/media/logo%20ajnas.67d11bb77dae75343f93.png"
-                alt="Ajnas N B Logo"
-              />
-            </a>
+
             <p className="creator-name">
               <a href="https://ajnasnb.live">Ajnas N B</a>
             </p>

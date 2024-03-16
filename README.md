@@ -22,7 +22,7 @@ And SQL Magic will generate:
 
 ```sql
 SELECT SUBSTRING_INDEX(Address, '(', 1) AS PlaceName FROM EmployeeInfo;
-
+```
 # For more information and to try it out, visit https://sqlmagic.ajnasnb.me
 
 

@@ -83,9 +83,9 @@ SQL Magic is made available under the MIT License. For more details, see the LIC
 
 ## Contact
 
-Ajnas N B - [@your_twitter_handle](https://twitter.com/your_twitter_handle) - creator and maintainer
+Ajnas N B - [@Linkdinl](https://www.linkedin.com/in/ajnasnb/) - creator and maintainer
 
-Project Link: [https://github.com/yourusername/sql-magic](https://github.com/yourusername/sql-magic)
+Project Link: [https://github.com/AjnasNB/sql-magic](https://github.com/AjnasNB/sql-magic)
 
 ## Acknowledgments
 

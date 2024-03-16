@@ -28,8 +28,6 @@ SELECT SUBSTRING_INDEX(Address, '(', 1) AS PlaceName FROM EmployeeInfo;
 
 # SQL Magic
 
-To explore more about SQL Magic and its capabilities, visit our website.
-
 ## Getting Started
 
 To get SQL Magic up and running on your machine, follow these steps:

@@ -19,14 +19,14 @@ const Ask = () => {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ question: question }),
+          body: JSON.stringify({ prompt: question }),
         });
 
         const data = await response.json();
         setIsGenerating(false);
-        setAnswer(data.answer);
+        setAnswer(data.response);
 
-        processSqlQueries(data.answer);
+        processSqlQueries(data.response);
       } catch (error) {
         console.error("An error occurred:", error);
         setIsGenerating(false);
@@ -75,10 +75,10 @@ const Ask = () => {
   return (
     <div className="container">
       <div className="question-bar">
-      <div className="ask-info">
-      <h1 >Generate SQL from natural language</h1>
+        <div className="ask-info">
+          <h1 >Generate SQL from natural language</h1>
           <p className="ask-info-text"> Use meaningful questions to get SQL queries
-          (e.g. Write a query to fetch only the place name (string before brackets) from the Address column of EmployeeInfo table.)</p>
+            (e.g. Write a query to fetch only the place name (string before brackets) from the Address column of EmployeeInfo table.)</p>
         </div>
         <textarea
           placeholder="Ask a question...
@@ -88,7 +88,7 @@ const Ask = () => {
           onChange={(e) => setQuestion(e.target.value)}
         />
         <button onClick={handleAsk} disabled={isGenerating}>
-          {isGenerating ? <span>Generating...</span> : <span><BiSolidMagicWand/> Do the magic</span>}
+          {isGenerating ? <span>Generating...</span> : <span><BiSolidMagicWand /> Do the magic</span>}
         </button>
       </div>
       {answer && <div className="answer-card">{answer}</div>}

@@ -15,7 +15,7 @@ const Header = () => {
         <h1>SqlMagic</h1>
       </div>
       <div className="creator-link">
-        <a href="https://ajnasnb.me" target="_blank" rel="noopener noreferrer" placeholder="click to see the creator">
+        <a href="https://ajnasnb.live" target="_blank" rel="noopener noreferrer" placeholder="click to see the creator">
           Creator
         </a>
       </div>
